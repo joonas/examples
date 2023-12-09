@@ -7,6 +7,7 @@ apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
   name: echo
+  namespace: default
   annotations:
     version: v0.1.1
     description: "wasmCloud Echo Example"
